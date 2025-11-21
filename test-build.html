@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test - Check if assets load</title>
+</head>
+<body>
+    <h1>Asset Loading Test</h1>
+    <p>If you can see this, the HTML is loading.</p>
+    <p>Check browser console (F12) for JavaScript errors.</p>
+    <script>
+        console.log('Test script loaded');
+        // Try to load the main JS file
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.crossOrigin = 'anonymous';
+        script.src = '/Drunk-O-Meter/assets/index-DkDePEXr.js';
+        script.onload = () => console.log('✅ Main JS loaded successfully');
+        script.onerror = (e) => console.error('❌ Failed to load main JS:', e);
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>
+
