@@ -30,7 +30,7 @@ export const StartScreen = ({ onStart }: StartScreenProps) => {
         </h2>
         
         <p className="text-gray-300 text-xl mb-12">
-          Answer 100 brutally honest questions to discover your true level of intoxication.
+          Answer 5-7 randomly selected questions to discover your true level of intoxication.
           <br />
           <span className="text-neon-pink">Warning: Results may hurt feelings</span>
         </p>

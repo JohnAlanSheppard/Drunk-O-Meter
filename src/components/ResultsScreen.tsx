@@ -100,7 +100,7 @@ export const ResultsScreen = ({ level, totalScore, onRestart }: ResultsScreenPro
           </p>
           
           <div className="text-neon-green text-lg">
-            Total Score: <span className="font-bold text-3xl">{totalScore}</span> / 500
+            Total Score: <span className="font-bold text-3xl">{totalScore}</span>
           </div>
         </motion.div>
         
